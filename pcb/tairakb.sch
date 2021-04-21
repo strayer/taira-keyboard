@@ -1,0 +1,1402 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Taira Keyboard"
+Date "2021-09-09"
+Rev "1.0"
+Comp "strayer | Sven Grunewaldt <sven@grunewaldt.de>"
+Comment1 "A low profile split mechanical keyboard based on the ErgoDash and Corne Chocolate"
+Comment2 ""
+Comment3 ""
+Comment4 "Licensed under the MIT License - Copyright (c) 2021 Sven Grunewaldt"
+$EndDescr
+$Comp
+L Switch:SW_Push RSW1
+U 1 1 60809DE5
+P 3700 3250
+F 0 "RSW1" H 3700 3535 50  0000 C CNN
+F 1 "SW_Push" H 3700 3444 50  0000 C CNN
+F 2 "kbd:ResetSW" H 3700 3450 50  0001 C CNN
+F 3 "~" H 3700 3450 50  0001 C CNN
+	1    3700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 608DEFC5
+P 1050 3100
+F 0 "BT1" H 1158 3146 50  0000 L CNN
+F 1 "Battery" H 1158 3055 50  0000 L CNN
+F 2 "tairakb:Battery_Wire_Connector" V 1050 3160 50  0001 C CNN
+F 3 "~" V 1050 3160 50  0001 C CNN
+	1    1050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 60808842
+P 6150 1200
+F 0 "D1" H 6160 1400 50  0000 L CNN
+F 1 "D" H 6150 1100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 6150 1400 50  0001 C CNN
+F 3 "" H 6150 1400 50  0001 C CNN
+	1    6150 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 950 
+Wire Wire Line
+	5600 950  5600 1200
+$Comp
+L Switch:SW_Push SW6
+U 1 1 60808843
+P 6550 1200
+F 0 "SW6" H 6560 1400 50  0000 L CNN
+F 1 "SW_Push" H 6550 1100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 6550 1400 50  0001 C CNN
+F 3 "" H 6550 1400 50  0001 C CNN
+	1    6550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 60808844
+P 6900 1200
+F 0 "D6" H 6910 1400 50  0000 L CNN
+F 1 "D" H 6900 1100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 6900 1400 50  0001 C CNN
+F 3 "" H 6900 1400 50  0001 C CNN
+	1    6900 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 950 
+Wire Wire Line
+	6350 950  6350 1200
+$Comp
+L Switch:SW_Push SW11
+U 1 1 60808845
+P 7300 1200
+F 0 "SW11" H 7310 1400 50  0000 L CNN
+F 1 "SW_Push" H 7300 1100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 7300 1400 50  0001 C CNN
+F 3 "" H 7300 1400 50  0001 C CNN
+	1    7300 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 60808846
+P 7650 1200
+F 0 "D11" H 7660 1400 50  0000 L CNN
+F 1 "D" H 7650 1100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 7650 1400 50  0001 C CNN
+F 3 "" H 7650 1400 50  0001 C CNN
+	1    7650 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 950 
+Wire Wire Line
+	7100 950  7100 1200
+$Comp
+L Switch:SW_Push SW16
+U 1 1 60808847
+P 8050 1200
+F 0 "SW16" H 8060 1400 50  0000 L CNN
+F 1 "SW_Push" H 8050 1100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8050 1400 50  0001 C CNN
+F 3 "" H 8050 1400 50  0001 C CNN
+	1    8050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 60808848
+P 8400 1200
+F 0 "D16" H 8410 1400 50  0000 L CNN
+F 1 "D" H 8400 1100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 8400 1400 50  0001 C CNN
+F 3 "" H 8400 1400 50  0001 C CNN
+	1    8400 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 950 
+Wire Wire Line
+	7850 950  7850 1200
+$Comp
+L Switch:SW_Push SW21
+U 1 1 60808849
+P 8800 1200
+F 0 "SW21" H 8810 1400 50  0000 L CNN
+F 1 "SW_Push" H 8800 1100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8800 1400 50  0001 C CNN
+F 3 "" H 8800 1400 50  0001 C CNN
+	1    8800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 6080884A
+P 9150 1200
+F 0 "D21" H 9160 1400 50  0000 L CNN
+F 1 "D" H 9150 1100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 9150 1400 50  0001 C CNN
+F 3 "" H 9150 1400 50  0001 C CNN
+	1    9150 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8600 950 
+Wire Wire Line
+	8600 950  8600 1200
+$Comp
+L Device:D D26
+U 1 1 6080884C
+P 9900 1200
+F 0 "D26" H 9910 1400 50  0000 L CNN
+F 1 "D" H 9900 1100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 9900 1400 50  0001 C CNN
+F 3 "" H 9900 1400 50  0001 C CNN
+	1    9900 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 950  9350 1200
+Wire Wire Line
+	5400 950  5600 950 
+$Comp
+L Switch:SW_Push SW2
+U 1 1 6080884F
+P 5800 1700
+F 0 "SW2" H 5810 1900 50  0000 L CNN
+F 1 "SW_Push" H 5800 1600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 5800 1900 50  0001 C CNN
+F 3 "" H 5800 1900 50  0001 C CNN
+	1    5800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 60808850
+P 6150 1700
+F 0 "D2" H 6160 1900 50  0000 L CNN
+F 1 "D" H 6150 1600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 6150 1900 50  0001 C CNN
+F 3 "" H 6150 1900 50  0001 C CNN
+	1    6150 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 1450
+Wire Wire Line
+	5600 1450 5600 1700
+Connection ~ 6300 1700
+$Comp
+L Switch:SW_Push SW7
+U 1 1 60808851
+P 6550 1700
+F 0 "SW7" H 6560 1900 50  0000 L CNN
+F 1 "SW_Push" H 6550 1600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 6550 1900 50  0001 C CNN
+F 3 "" H 6550 1900 50  0001 C CNN
+	1    6550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 60808852
+P 6900 1700
+F 0 "D7" H 6910 1900 50  0000 L CNN
+F 1 "D" H 6900 1600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 6900 1900 50  0001 C CNN
+F 3 "" H 6900 1900 50  0001 C CNN
+	1    6900 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 1450
+Wire Wire Line
+	6350 1450 6350 1700
+Connection ~ 7050 1700
+$Comp
+L Switch:SW_Push SW12
+U 1 1 60808853
+P 7300 1700
+F 0 "SW12" H 7310 1900 50  0000 L CNN
+F 1 "SW_Push" H 7300 1600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 7300 1900 50  0001 C CNN
+F 3 "" H 7300 1900 50  0001 C CNN
+	1    7300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 60808854
+P 7650 1700
+F 0 "D12" H 7660 1900 50  0000 L CNN
+F 1 "D" H 7650 1600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 7650 1900 50  0001 C CNN
+F 3 "" H 7650 1900 50  0001 C CNN
+	1    7650 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 1450
+Wire Wire Line
+	7100 1450 7100 1700
+Connection ~ 7800 1700
+$Comp
+L Switch:SW_Push SW17
+U 1 1 60808855
+P 8050 1700
+F 0 "SW17" H 8060 1900 50  0000 L CNN
+F 1 "SW_Push" H 8050 1600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8050 1900 50  0001 C CNN
+F 3 "" H 8050 1900 50  0001 C CNN
+	1    8050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 60808856
+P 8400 1700
+F 0 "D17" H 8410 1900 50  0000 L CNN
+F 1 "D" H 8400 1600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 8400 1900 50  0001 C CNN
+F 3 "" H 8400 1900 50  0001 C CNN
+	1    8400 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 1450
+Wire Wire Line
+	7850 1450 7850 1700
+Connection ~ 8550 1700
+$Comp
+L Switch:SW_Push SW22
+U 1 1 60808857
+P 8800 1700
+F 0 "SW22" H 8810 1900 50  0000 L CNN
+F 1 "SW_Push" H 8800 1600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8800 1900 50  0001 C CNN
+F 3 "" H 8800 1900 50  0001 C CNN
+	1    8800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 60808858
+P 9150 1700
+F 0 "D22" H 9160 1900 50  0000 L CNN
+F 1 "D" H 9150 1600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 9150 1900 50  0001 C CNN
+F 3 "" H 9150 1900 50  0001 C CNN
+	1    9150 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8600 1450
+Wire Wire Line
+	8600 1450 8600 1700
+Connection ~ 9300 1700
+$Comp
+L Device:D D27
+U 1 1 6080885A
+P 9900 1700
+F 0 "D27" H 9910 1900 50  0000 L CNN
+F 1 "D" H 9900 1600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 9900 1900 50  0001 C CNN
+F 3 "" H 9900 1900 50  0001 C CNN
+	1    9900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1450 9350 1700
+Connection ~ 10050 1700
+Wire Wire Line
+	5400 1450 5600 1450
+$Comp
+L Switch:SW_Push SW3
+U 1 1 6080885D
+P 5800 2200
+F 0 "SW3" H 5810 2400 50  0000 L CNN
+F 1 "SW_Push" H 5800 2100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 5800 2400 50  0001 C CNN
+F 3 "" H 5800 2400 50  0001 C CNN
+	1    5800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 6080885E
+P 6150 2200
+F 0 "D3" H 6160 2400 50  0000 L CNN
+F 1 "D" H 6150 2100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 6150 2400 50  0001 C CNN
+F 3 "" H 6150 2400 50  0001 C CNN
+	1    6150 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 1950
+Wire Wire Line
+	5600 1950 5600 2200
+Connection ~ 6300 2200
+$Comp
+L Switch:SW_Push SW8
+U 1 1 6080885F
+P 6550 2200
+F 0 "SW8" H 6560 2400 50  0000 L CNN
+F 1 "SW_Push" H 6550 2100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 6550 2400 50  0001 C CNN
+F 3 "" H 6550 2400 50  0001 C CNN
+	1    6550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 60808860
+P 6900 2200
+F 0 "D8" H 6910 2400 50  0000 L CNN
+F 1 "D" H 6900 2100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 6900 2400 50  0001 C CNN
+F 3 "" H 6900 2400 50  0001 C CNN
+	1    6900 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 1950
+Wire Wire Line
+	6350 1950 6350 2200
+Connection ~ 7050 2200
+$Comp
+L Switch:SW_Push SW13
+U 1 1 60808861
+P 7300 2200
+F 0 "SW13" H 7310 2400 50  0000 L CNN
+F 1 "SW_Push" H 7300 2100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 7300 2400 50  0001 C CNN
+F 3 "" H 7300 2400 50  0001 C CNN
+	1    7300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 60808862
+P 7650 2200
+F 0 "D13" H 7660 2400 50  0000 L CNN
+F 1 "D" H 7650 2100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 7650 2400 50  0001 C CNN
+F 3 "" H 7650 2400 50  0001 C CNN
+	1    7650 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 1950
+Wire Wire Line
+	7100 1950 7100 2200
+Connection ~ 7800 2200
+$Comp
+L Switch:SW_Push SW18
+U 1 1 60808863
+P 8050 2200
+F 0 "SW18" H 8060 2400 50  0000 L CNN
+F 1 "SW_Push" H 8050 2100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8050 2400 50  0001 C CNN
+F 3 "" H 8050 2400 50  0001 C CNN
+	1    8050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 60808864
+P 8400 2200
+F 0 "D18" H 8410 2400 50  0000 L CNN
+F 1 "D" H 8400 2100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 8400 2400 50  0001 C CNN
+F 3 "" H 8400 2400 50  0001 C CNN
+	1    8400 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 1950
+Wire Wire Line
+	7850 1950 7850 2200
+Connection ~ 8550 2200
+$Comp
+L Switch:SW_Push SW23
+U 1 1 60808865
+P 8800 2200
+F 0 "SW23" H 8810 2400 50  0000 L CNN
+F 1 "SW_Push" H 8800 2100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8800 2400 50  0001 C CNN
+F 3 "" H 8800 2400 50  0001 C CNN
+	1    8800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 60808866
+P 9150 2200
+F 0 "D23" H 9160 2400 50  0000 L CNN
+F 1 "D" H 9150 2100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 9150 2400 50  0001 C CNN
+F 3 "" H 9150 2400 50  0001 C CNN
+	1    9150 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8600 1950
+Wire Wire Line
+	8600 1950 8600 2200
+Connection ~ 9300 2200
+$Comp
+L Switch:SW_Push SW28
+U 1 1 60808867
+P 9550 2200
+F 0 "SW28" H 9560 2400 50  0000 L CNN
+F 1 "SW_Push" H 9550 2100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 9550 2400 50  0001 C CNN
+F 3 "" H 9550 2400 50  0001 C CNN
+	1    9550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 60808868
+P 9900 2200
+F 0 "D28" H 9910 2400 50  0000 L CNN
+F 1 "D" H 9900 2100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 9900 2400 50  0001 C CNN
+F 3 "" H 9900 2400 50  0001 C CNN
+	1    9900 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 1950
+Wire Wire Line
+	9350 1950 9350 2200
+Connection ~ 10050 2200
+$Comp
+L Switch:SW_Push SW31
+U 1 1 60808869
+P 10300 2200
+F 0 "SW31" H 10310 2400 50  0000 L CNN
+F 1 "SW_Push" H 10300 2100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 10300 2400 50  0001 C CNN
+F 3 "" H 10300 2400 50  0001 C CNN
+	1    10300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 6080886A
+P 10650 2200
+F 0 "D31" H 10660 2400 50  0000 L CNN
+F 1 "D" H 10650 2100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 10650 2400 50  0001 C CNN
+F 3 "" H 10650 2400 50  0001 C CNN
+	1    10650 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1950 10100 2200
+Wire Wire Line
+	5400 1950 5600 1950
+$Comp
+L Switch:SW_Push SW4
+U 1 1 6080886B
+P 5800 2700
+F 0 "SW4" H 5810 2900 50  0000 L CNN
+F 1 "SW_Push" H 5800 2600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 5800 2900 50  0001 C CNN
+F 3 "" H 5800 2900 50  0001 C CNN
+	1    5800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 6080886C
+P 6150 2700
+F 0 "D4" H 6160 2900 50  0000 L CNN
+F 1 "D" H 6150 2600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 6150 2900 50  0001 C CNN
+F 3 "" H 6150 2900 50  0001 C CNN
+	1    6150 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 2450
+Wire Wire Line
+	5600 2450 5600 2700
+Connection ~ 6300 2700
+$Comp
+L Switch:SW_Push SW9
+U 1 1 6080886D
+P 6550 2700
+F 0 "SW9" H 6560 2900 50  0000 L CNN
+F 1 "SW_Push" H 6550 2600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 6550 2900 50  0001 C CNN
+F 3 "" H 6550 2900 50  0001 C CNN
+	1    6550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 6080886E
+P 6900 2700
+F 0 "D9" H 6910 2900 50  0000 L CNN
+F 1 "D" H 6900 2600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 6900 2900 50  0001 C CNN
+F 3 "" H 6900 2900 50  0001 C CNN
+	1    6900 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 2450
+Wire Wire Line
+	6350 2450 6350 2700
+Connection ~ 7050 2700
+$Comp
+L Switch:SW_Push SW14
+U 1 1 6080886F
+P 7300 2700
+F 0 "SW14" H 7310 2900 50  0000 L CNN
+F 1 "SW_Push" H 7300 2600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 7300 2900 50  0001 C CNN
+F 3 "" H 7300 2900 50  0001 C CNN
+	1    7300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 60808870
+P 7650 2700
+F 0 "D14" H 7660 2900 50  0000 L CNN
+F 1 "D" H 7650 2600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 7650 2900 50  0001 C CNN
+F 3 "" H 7650 2900 50  0001 C CNN
+	1    7650 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 2450
+Wire Wire Line
+	7100 2450 7100 2700
+Connection ~ 7800 2700
+$Comp
+L Switch:SW_Push SW19
+U 1 1 60808871
+P 8050 2700
+F 0 "SW19" H 8060 2900 50  0000 L CNN
+F 1 "SW_Push" H 8050 2600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8050 2900 50  0001 C CNN
+F 3 "" H 8050 2900 50  0001 C CNN
+	1    8050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 60808872
+P 8400 2700
+F 0 "D19" H 8410 2900 50  0000 L CNN
+F 1 "D" H 8400 2600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 8400 2900 50  0001 C CNN
+F 3 "" H 8400 2900 50  0001 C CNN
+	1    8400 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 2450
+Wire Wire Line
+	7850 2450 7850 2700
+Connection ~ 8550 2700
+$Comp
+L Switch:SW_Push SW24
+U 1 1 60808873
+P 8800 2700
+F 0 "SW24" H 8810 2900 50  0000 L CNN
+F 1 "SW_Push" H 8800 2600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8800 2900 50  0001 C CNN
+F 3 "" H 8800 2900 50  0001 C CNN
+	1    8800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 60808874
+P 9150 2700
+F 0 "D24" H 9160 2900 50  0000 L CNN
+F 1 "D" H 9150 2600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 9150 2900 50  0001 C CNN
+F 3 "" H 9150 2900 50  0001 C CNN
+	1    9150 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8600 2450
+Wire Wire Line
+	8600 2450 8600 2700
+Connection ~ 9300 2700
+$Comp
+L Switch:SW_Push SW29
+U 1 1 60808875
+P 9550 2700
+F 0 "SW29" H 9560 2900 50  0000 L CNN
+F 1 "SW_Push" H 9550 2600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 9550 2900 50  0001 C CNN
+F 3 "" H 9550 2900 50  0001 C CNN
+	1    9550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 60808876
+P 9900 2700
+F 0 "D29" H 9910 2900 50  0000 L CNN
+F 1 "D" H 9900 2600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 9900 2900 50  0001 C CNN
+F 3 "" H 9900 2900 50  0001 C CNN
+	1    9900 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 2450
+Wire Wire Line
+	9350 2450 9350 2700
+Connection ~ 10050 2700
+$Comp
+L Switch:SW_Push SW32
+U 1 1 60808877
+P 10300 2700
+F 0 "SW32" H 10310 2900 50  0000 L CNN
+F 1 "SW_Push" H 10300 2600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 10300 2900 50  0001 C CNN
+F 3 "" H 10300 2900 50  0001 C CNN
+	1    10300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 60808878
+P 10650 2700
+F 0 "D32" H 10660 2900 50  0000 L CNN
+F 1 "D" H 10650 2600 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 10650 2900 50  0001 C CNN
+F 3 "" H 10650 2900 50  0001 C CNN
+	1    10650 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2450 10100 2700
+Connection ~ 10800 2700
+Wire Wire Line
+	5400 2450 5600 2450
+$Comp
+L Switch:SW_Push SW5
+U 1 1 60808879
+P 5800 3200
+F 0 "SW5" H 5810 3400 50  0000 L CNN
+F 1 "SW_Push" H 5800 3100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 5800 3400 50  0001 C CNN
+F 3 "" H 5800 3400 50  0001 C CNN
+	1    5800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 6080887A
+P 6150 3200
+F 0 "D5" H 6160 3400 50  0000 L CNN
+F 1 "D" H 6150 3100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 6150 3400 50  0001 C CNN
+F 3 "" H 6150 3400 50  0001 C CNN
+	1    6150 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 2950
+Wire Wire Line
+	5600 2950 5600 3200
+Connection ~ 6300 3200
+Wire Wire Line
+	6300 1200 6300 1700
+$Comp
+L Switch:SW_Push SW10
+U 1 1 6080887B
+P 6550 3200
+F 0 "SW10" H 6560 3400 50  0000 L CNN
+F 1 "SW_Push" H 6550 3100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 6550 3400 50  0001 C CNN
+F 3 "" H 6550 3400 50  0001 C CNN
+	1    6550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 6080887C
+P 6900 3200
+F 0 "D10" H 6910 3400 50  0000 L CNN
+F 1 "D" H 6900 3100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 2950
+Wire Wire Line
+	6350 2950 6350 3200
+Connection ~ 7050 3200
+Wire Wire Line
+	7050 1200 7050 1700
+$Comp
+L Switch:SW_Push SW15
+U 1 1 6080887D
+P 7300 3200
+F 0 "SW15" H 7310 3400 50  0000 L CNN
+F 1 "SW_Push" H 7300 3100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 7300 3400 50  0001 C CNN
+F 3 "" H 7300 3400 50  0001 C CNN
+	1    7300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 6080887E
+P 7650 3200
+F 0 "D15" H 7660 3400 50  0000 L CNN
+F 1 "D" H 7650 3100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 7650 3400 50  0001 C CNN
+F 3 "" H 7650 3400 50  0001 C CNN
+	1    7650 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 2950
+Wire Wire Line
+	7100 2950 7100 3200
+Connection ~ 7800 3200
+Wire Wire Line
+	7800 1200 7800 1700
+$Comp
+L Switch:SW_Push SW20
+U 1 1 6080887F
+P 8050 3200
+F 0 "SW20" H 8060 3400 50  0000 L CNN
+F 1 "SW_Push" H 8050 3100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8050 3400 50  0001 C CNN
+F 3 "" H 8050 3400 50  0001 C CNN
+	1    8050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 60808880
+P 8400 3200
+F 0 "D20" H 8410 3400 50  0000 L CNN
+F 1 "D" H 8400 3100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 8400 3400 50  0001 C CNN
+F 3 "" H 8400 3400 50  0001 C CNN
+	1    8400 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 2950
+Wire Wire Line
+	7850 2950 7850 3200
+Connection ~ 8550 3200
+Wire Wire Line
+	8550 1200 8550 1700
+$Comp
+L Switch:SW_Push SW25
+U 1 1 60808881
+P 8800 3200
+F 0 "SW25" H 8810 3400 50  0000 L CNN
+F 1 "SW_Push" H 8800 3100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8800 3400 50  0001 C CNN
+F 3 "" H 8800 3400 50  0001 C CNN
+	1    8800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 60808882
+P 9150 3200
+F 0 "D25" H 9160 3400 50  0000 L CNN
+F 1 "D" H 9150 3100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 9150 3400 50  0001 C CNN
+F 3 "" H 9150 3400 50  0001 C CNN
+	1    9150 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8600 2950
+Wire Wire Line
+	8600 2950 8600 3200
+Connection ~ 9300 3200
+Wire Wire Line
+	9300 1200 9300 1700
+$Comp
+L Switch:SW_Push SW30
+U 1 1 60808883
+P 9550 3200
+F 0 "SW30" H 9560 3400 50  0000 L CNN
+F 1 "SW_Push" H 9550 3100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 9550 3400 50  0001 C CNN
+F 3 "" H 9550 3400 50  0001 C CNN
+	1    9550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 60808884
+P 9900 3200
+F 0 "D30" H 9910 3400 50  0000 L CNN
+F 1 "D" H 9900 3100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 9900 3400 50  0001 C CNN
+F 3 "" H 9900 3400 50  0001 C CNN
+	1    9900 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 2950
+Wire Wire Line
+	9350 2950 9350 3200
+Connection ~ 10050 3200
+Wire Wire Line
+	10050 1200 10050 1700
+$Comp
+L Switch:SW_Push SW33
+U 1 1 60808885
+P 10300 3200
+F 0 "SW33" H 10310 3400 50  0000 L CNN
+F 1 "SW_Push" H 10300 3100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 10300 3400 50  0001 C CNN
+F 3 "" H 10300 3400 50  0001 C CNN
+	1    10300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 60808886
+P 10650 3200
+F 0 "D33" H 10660 3400 50  0000 L CNN
+F 1 "D" H 10650 3100 50  0000 C CNN
+F 2 "kbd:D3_SMD" H 10650 3400 50  0001 C CNN
+F 3 "" H 10650 3400 50  0001 C CNN
+	1    10650 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2950 10100 3200
+Connection ~ 10800 3200
+Wire Wire Line
+	5400 2950 5600 2950
+Wire Wire Line
+	5600 950  6350 950 
+Wire Wire Line
+	6350 950  7100 950 
+Wire Wire Line
+	7100 950  7850 950 
+Wire Wire Line
+	7850 950  8600 950 
+Wire Wire Line
+	8600 950  9350 950 
+Wire Wire Line
+	5600 1450 6350 1450
+Wire Wire Line
+	6300 1700 6300 2200
+Wire Wire Line
+	6350 1450 7100 1450
+Wire Wire Line
+	7050 1700 7050 2200
+Wire Wire Line
+	7100 1450 7850 1450
+Wire Wire Line
+	7800 1700 7800 2200
+Wire Wire Line
+	7850 1450 8600 1450
+Wire Wire Line
+	8550 1700 8550 2200
+Wire Wire Line
+	8600 1450 9350 1450
+Wire Wire Line
+	9300 1700 9300 2200
+Wire Wire Line
+	10050 1700 10050 2200
+Wire Wire Line
+	5600 1950 6350 1950
+Wire Wire Line
+	6300 2200 6300 2700
+Wire Wire Line
+	6350 1950 7100 1950
+Wire Wire Line
+	7050 2200 7050 2700
+Wire Wire Line
+	7100 1950 7850 1950
+Wire Wire Line
+	7800 2200 7800 2700
+Wire Wire Line
+	7850 1950 8600 1950
+Wire Wire Line
+	8550 2200 8550 2700
+Wire Wire Line
+	8600 1950 9350 1950
+Wire Wire Line
+	9300 2200 9300 2700
+Wire Wire Line
+	9350 1950 10100 1950
+Wire Wire Line
+	10050 2200 10050 2700
+Wire Wire Line
+	10800 2200 10800 2700
+Wire Wire Line
+	5600 2450 6350 2450
+Wire Wire Line
+	6300 2700 6300 3200
+Wire Wire Line
+	6350 2450 7100 2450
+Wire Wire Line
+	7050 2700 7050 3200
+Wire Wire Line
+	7100 2450 7850 2450
+Wire Wire Line
+	7800 2700 7800 3200
+Wire Wire Line
+	7850 2450 8600 2450
+Wire Wire Line
+	8550 2700 8550 3200
+Wire Wire Line
+	8600 2450 9350 2450
+Wire Wire Line
+	9300 2700 9300 3200
+Wire Wire Line
+	9350 2450 10100 2450
+Wire Wire Line
+	10050 2700 10050 3200
+Wire Wire Line
+	10800 2700 10800 3200
+Wire Wire Line
+	5600 2950 6350 2950
+Wire Wire Line
+	6300 3200 6300 3400
+Wire Wire Line
+	6350 2950 7100 2950
+Wire Wire Line
+	7050 3200 7050 3400
+Wire Wire Line
+	7100 2950 7850 2950
+Wire Wire Line
+	7800 3200 7800 3400
+Wire Wire Line
+	7850 2950 8600 2950
+Wire Wire Line
+	8550 3200 8550 3400
+Wire Wire Line
+	8600 2950 9350 2950
+Wire Wire Line
+	9300 3200 9300 3400
+Wire Wire Line
+	9350 2950 10100 2950
+Wire Wire Line
+	10050 3200 10050 3400
+Wire Wire Line
+	10800 3200 10800 3400
+$Comp
+L Switch:SW_Push SW1
+U 1 1 60808841
+P 5800 1200
+F 0 "SW1" H 5810 1400 50  0000 L CNN
+F 1 "SW_Push" H 5800 1100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 5800 1400 50  0001 C CNN
+F 3 "" H 5800 1400 50  0001 C CNN
+	1    5800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 BSW1
+U 1 1 6080CDCD
+P 1700 2600
+F 0 "BSW1" H 1700 2885 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 1700 2794 50  0000 C CNN
+F 2 "tairakb:SS-12D00" H 1700 2600 50  0001 C CNN
+F 3 "~" H 1700 2600 50  0001 C CNN
+	1    1700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 608ACD23
+P 3650 950
+F 0 "#FLG0101" H 3650 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 3650 1123 50  0000 C CNN
+F 2 "" H 3650 950 50  0001 C CNN
+F 3 "~" H 3650 950 50  0001 C CNN
+	1    3650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 608ACFD3
+P 2750 950
+F 0 "#FLG0102" H 2750 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 2750 1123 50  0000 C CNN
+F 2 "" H 2750 950 50  0001 C CNN
+F 3 "~" H 2750 950 50  0001 C CNN
+	1    2750 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 608AE00E
+P 2750 950
+F 0 "#PWR0103" H 2750 800 50  0001 C CNN
+F 1 "VCC" H 2765 1123 50  0000 C CNN
+F 2 "" H 2750 950 50  0001 C CNN
+F 3 "" H 2750 950 50  0001 C CNN
+	1    2750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 608AF0EB
+P 3650 950
+F 0 "#PWR0104" H 3650 700 50  0001 C CNN
+F 1 "GND" H 3655 777 50  0000 C CNN
+F 2 "" H 3650 950 50  0001 C CNN
+F 3 "" H 3650 950 50  0001 C CNN
+	1    3650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 608BED29
+P 1050 3550
+F 0 "#PWR0105" H 1050 3300 50  0001 C CNN
+F 1 "GND" H 1055 3377 50  0000 C CNN
+F 2 "" H 1050 3550 50  0001 C CNN
+F 3 "" H 1050 3550 50  0001 C CNN
+	1    1050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0106
+U 1 1 608D7394
+P 2200 2350
+F 0 "#PWR0106" H 2200 2200 50  0001 C CNN
+F 1 "+BATT" H 2215 2523 50  0000 C CNN
+F 2 "" H 2200 2350 50  0001 C CNN
+F 3 "" H 2200 2350 50  0001 C CNN
+	1    2200 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1900 2500
+Wire Wire Line
+	1900 2700 2200 2700
+Wire Wire Line
+	2200 2700 2200 2350
+Wire Wire Line
+	3500 3250 3350 3250
+Wire Wire Line
+	3350 3250 3350 3150
+$Comp
+L power:VCC #PWR0108
+U 1 1 609500C7
+P 3350 3150
+F 0 "#PWR0108" H 3350 3000 50  0001 C CNN
+F 1 "VCC" H 3365 3323 50  0000 C CNN
+F 2 "" H 3350 3150 50  0001 C CNN
+F 3 "" H 3350 3150 50  0001 C CNN
+	1    3350 3150
+	1    0    0    -1  
+$EndComp
+Text Label 4200 3250 2    50   ~ 0
+RST
+Wire Wire Line
+	3900 3250 4200 3250
+$Comp
+L power:+BATT #PWR0112
+U 1 1 60980BB0
+P 3200 950
+F 0 "#PWR0112" H 3200 800 50  0001 C CNN
+F 1 "+BATT" H 3215 1123 50  0000 C CNN
+F 2 "" H 3200 950 50  0001 C CNN
+F 3 "" H 3200 950 50  0001 C CNN
+	1    3200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 60981AEC
+P 3200 950
+F 0 "#FLG0103" H 3200 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 1123 50  0000 C CNN
+F 2 "" H 3200 950 50  0001 C CNN
+F 3 "~" H 3200 950 50  0001 C CNN
+	1    3200 950 
+	-1   0    0    1   
+$EndComp
+Text Label 5400 950  0    50   ~ 0
+row0
+Text Label 5400 1450 0    50   ~ 0
+row1
+Text Label 5400 1950 0    50   ~ 0
+row2
+Text Label 5400 2450 0    50   ~ 0
+row3
+Text Label 5400 2950 0    50   ~ 0
+row4
+Text Label 6300 3400 1    50   ~ 0
+col0
+Text Label 7050 3400 1    50   ~ 0
+col1
+Text Label 7800 3400 1    50   ~ 0
+col2
+Text Label 8550 3400 1    50   ~ 0
+col3
+Text Label 9300 3400 1    50   ~ 0
+col4
+Text Label 10050 3400 1    50   ~ 0
+col5
+Text Label 10800 3400 1    50   ~ 0
+col6
+Text Label 4350 5550 2    50   ~ 0
+RST
+Wire Wire Line
+	3800 5750 4350 5750
+Wire Wire Line
+	3800 5850 4350 5850
+Wire Wire Line
+	3800 5950 4350 5950
+Wire Wire Line
+	3800 6050 4350 6050
+Wire Wire Line
+	3800 6150 4350 6150
+Wire Wire Line
+	3800 6250 4350 6250
+Wire Wire Line
+	3800 6350 4350 6350
+Wire Wire Line
+	3800 5550 4350 5550
+$Comp
+L power:VCC #PWR0118
+U 1 1 610FCE48
+P 3800 5650
+F 0 "#PWR0118" H 3800 5500 50  0001 C CNN
+F 1 "VCC" V 3815 5778 50  0000 L CNN
+F 2 "" H 3800 5650 50  0001 C CNN
+F 3 "" H 3800 5650 50  0001 C CNN
+	1    3800 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 610FCE4E
+P 3800 5450
+F 0 "#PWR0119" H 3800 5200 50  0001 C CNN
+F 1 "GND" V 3805 5322 50  0000 R CNN
+F 2 "" H 3800 5450 50  0001 C CNN
+F 3 "" H 3800 5450 50  0001 C CNN
+	1    3800 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+BATT #PWR0120
+U 1 1 610FCE54
+P 4000 5150
+F 0 "#PWR0120" H 4000 5000 50  0001 C CNN
+F 1 "+BATT" H 4015 5323 50  0000 C CNN
+F 2 "" H 4000 5150 50  0001 C CNN
+F 3 "" H 4000 5150 50  0001 C CNN
+	1    4000 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5350 4000 5350
+Wire Wire Line
+	4000 5350 4000 5150
+NoConn ~ 3800 6450
+Text Label 4350 5750 2    50   ~ 0
+col0
+Text Label 4350 5850 2    50   ~ 0
+col1
+Text Label 4350 5950 2    50   ~ 0
+col2
+Text Label 4350 6050 2    50   ~ 0
+col3
+Text Label 4350 6150 2    50   ~ 0
+col4
+Text Label 4350 6250 2    50   ~ 0
+col5
+Text Label 4350 6350 2    50   ~ 0
+col6
+$Comp
+L power:GND #PWR0122
+U 1 1 6111433F
+P 2400 5650
+F 0 "#PWR0122" H 2400 5400 50  0001 C CNN
+F 1 "GND" V 2405 5522 50  0000 R CNN
+F 2 "" H 2400 5650 50  0001 C CNN
+F 3 "" H 2400 5650 50  0001 C CNN
+	1    2400 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 6350 1850 6350
+Wire Wire Line
+	2400 6250 1850 6250
+Wire Wire Line
+	2400 6150 1850 6150
+Wire Wire Line
+	2400 6050 1850 6050
+Wire Wire Line
+	2400 5950 1850 5950
+NoConn ~ 2400 5750
+NoConn ~ 2400 5850
+Text Label 1850 5950 0    50   ~ 0
+row0
+Text Label 1850 6050 0    50   ~ 0
+row1
+Text Label 1850 6150 0    50   ~ 0
+row2
+Text Label 1850 6250 0    50   ~ 0
+row3
+Text Label 1850 6350 0    50   ~ 0
+row4
+NoConn ~ 2400 5450
+NoConn ~ 2400 5350
+$Comp
+L power:GND #PWR0121
+U 1 1 61114339
+P 2400 5550
+F 0 "#PWR0121" H 2400 5300 50  0001 C CNN
+F 1 "GND" V 2405 5422 50  0000 R CNN
+F 2 "" H 2400 5550 50  0001 C CNN
+F 3 "" H 2400 5550 50  0001 C CNN
+	1    2400 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L tairakb:ProMicro U3
+U 1 1 610FB5E1
+P 3100 5900
+F 0 "U3" H 3100 6737 60  0000 C CNN
+F 1 "nice!nano" H 3100 6631 60  0000 C CNN
+F 2 "tairakb:nicenano" H 3200 4850 60  0001 C CNN
+F 3 "" H 3200 4850 60  0000 C CNN
+	1    3100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2600 1500 2600
+Wire Wire Line
+	1050 3300 1050 3550
+$Comp
+L Switch:SW_Push SW27
+U 1 1 60808859
+P 9550 1700
+F 0 "SW27" H 9560 1900 50  0000 L CNN
+F 1 "SW_Push" H 9550 1600 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 9550 1900 50  0001 C CNN
+F 3 "" H 9550 1900 50  0001 C CNN
+	1    9550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 6080884B
+P 9550 1200
+F 0 "SW26" H 9560 1400 50  0000 L CNN
+F 1 "SW_Push" H 9550 1100 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 9550 1400 50  0001 C CNN
+F 3 "" H 9550 1400 50  0001 C CNN
+	1    9550 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2900 1050 2600
+NoConn ~ 2400 6450
+$Comp
+L Switch:SW_Push SW20-1
+U 1 1 6133FC12
+P 8050 3650
+F 0 "SW20-1" H 8060 3850 50  0000 L CNN
+F 1 "SW_Push" H 8050 3550 50  0000 C CNN
+F 2 "tairakb:Choc_Hotswap" H 8050 3850 50  0001 C CNN
+F 3 "" H 8050 3850 50  0001 C CNN
+	1    8050 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3200 7850 3650
+Connection ~ 7850 3200
+Wire Wire Line
+	8250 3200 8250 3650
+Connection ~ 8250 3200
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61396604
+P 9000 4750
+F 0 "H2" H 9100 4796 50  0000 L CNN
+F 1 "MountingHole" H 9100 4705 50  0000 L CNN
+F 2 "tairakb:LEGO_HOLE" H 9000 4750 50  0001 C CNN
+F 3 "~" H 9000 4750 50  0001 C CNN
+	1    9000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 613968FF
+P 9000 5550
+F 0 "H6" H 9100 5596 50  0000 L CNN
+F 1 "MountingHole" H 9100 5505 50  0000 L CNN
+F 2 "tairakb:LEGO_HOLE" H 9000 5550 50  0001 C CNN
+F 3 "~" H 9000 5550 50  0001 C CNN
+	1    9000 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 6139AE82
+P 9000 5750
+F 0 "H7" H 9100 5796 50  0000 L CNN
+F 1 "MountingHole" H 9100 5705 50  0000 L CNN
+F 2 "tairakb:LEGO_HOLE" H 9000 5750 50  0001 C CNN
+F 3 "~" H 9000 5750 50  0001 C CNN
+	1    9000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6139F453
+P 9000 4550
+F 0 "H1" H 9100 4596 50  0000 L CNN
+F 1 "MountingHole" H 9100 4505 50  0000 L CNN
+F 2 "tairakb:LEGO_HOLE" H 9000 4550 50  0001 C CNN
+F 3 "~" H 9000 4550 50  0001 C CNN
+	1    9000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 613A391F
+P 9000 4950
+F 0 "H3" H 9100 4996 50  0000 L CNN
+F 1 "MountingHole" H 9100 4905 50  0000 L CNN
+F 2 "tairakb:LEGO_HOLE" H 9000 4950 50  0001 C CNN
+F 3 "~" H 9000 4950 50  0001 C CNN
+	1    9000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 613A7E8C
+P 9000 5350
+F 0 "H5" H 9100 5396 50  0000 L CNN
+F 1 "MountingHole" H 9100 5305 50  0000 L CNN
+F 2 "tairakb:LEGO_HOLE" H 9000 5350 50  0001 C CNN
+F 3 "~" H 9000 5350 50  0001 C CNN
+	1    9000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 613AC3D2
+P 9000 5150
+F 0 "H4" H 9100 5196 50  0000 L CNN
+F 1 "MountingHole" H 9100 5105 50  0000 L CNN
+F 2 "tairakb:LEGO_HOLE" H 9000 5150 50  0001 C CNN
+F 3 "~" H 9000 5150 50  0001 C CNN
+	1    9000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 613B097E
+P 9000 5950
+F 0 "H8" H 9100 5996 50  0000 L CNN
+F 1 "MountingHole" H 9100 5905 50  0000 L CNN
+F 2 "tairakb:LEGO_HOLE" H 9000 5950 50  0001 C CNN
+F 3 "~" H 9000 5950 50  0001 C CNN
+	1    9000 5950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
