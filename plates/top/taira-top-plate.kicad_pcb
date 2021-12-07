@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 32)
+    (drawings 31)
     (tracks 0)
     (zones 0)
     (modules 41)
@@ -109,8 +109,9 @@
     (uvia_drill 0.1)
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A40C5)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A40C5)
     (at 208.46 147.39 330)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808885)
     (fp_text reference SW33 (at 7 8.1 150) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -128,8 +129,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A4051)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A4051)
     (at 217.53 131.672 330)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808877)
     (fp_text reference SW32 (at 7 8.1 150) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -147,8 +149,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 61719F1F)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 61719F1F)
     (at 200.96 122.11 330)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808869)
     (fp_text reference SW31 (at 7 8.1 150) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -166,8 +169,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 615A3B24)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 615A3B24)
     (at 191.89 137.821 330)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808883)
     (fp_text reference SW30 (at 7 8.1 150) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -185,8 +189,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3EF5)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3EF5)
     (at 182.245 106.594 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808875)
     (fp_text reference SW29 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -204,8 +209,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3E81)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3E81)
     (at 182.245 88.594)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808867)
     (fp_text reference SW28 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -223,8 +229,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3E0D)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3E0D)
     (at 182.245 70.594 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808859)
     (fp_text reference SW27 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -242,8 +249,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3D99)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3D99)
     (at 182.245 52.594)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6080884B)
     (fp_text reference SW26 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -261,8 +269,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3D25)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3D25)
     (at 175.305 128.236 330)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808881)
     (fp_text reference SW25 (at 7 8.1 150) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -280,8 +289,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3CB1)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3CB1)
     (at 163.245 103.213 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808873)
     (fp_text reference SW24 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -299,8 +309,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3C3D)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3C3D)
     (at 163.245 85.213 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808865)
     (fp_text reference SW23 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -318,8 +329,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3BC9)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3BC9)
     (at 163.245 67.213 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808857)
     (fp_text reference SW22 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -337,8 +349,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3B55)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3B55)
     (at 163.245 49.213 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808849)
     (fp_text reference SW21 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -356,8 +369,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole_Flippable (layer F.Cu) (tedit 6144E424) (tstamp 610A3AE1)
+  (module plates:SW_Hole_Flippable (layer F.Cu) (tedit 61AFB54B) (tstamp 610A3AE1)
     (at 144.245 118.832)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6080887F)
     (fp_text reference SW20 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -365,22 +379,23 @@
     (fp_text value SW_Push (at -7.4 -8.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 14.196 -2.972) (end 14.196 11.028) (layer Edge.Cuts) (width 0.12))
-    (fp_line (start -7 -7) (end -7 7) (layer Edge.Cuts) (width 0.12))
-    (fp_line (start 14.196 11.028) (end 0.196 11.028) (layer Edge.Cuts) (width 0.12))
-    (fp_line (start 7 -7) (end -7 -7) (layer Edge.Cuts) (width 0.12))
-    (fp_line (start 7 -2.972) (end 7 -7) (layer Edge.Cuts) (width 0.12))
-    (fp_line (start -7 7) (end 0.196 7) (layer Edge.Cuts) (width 0.12))
-    (fp_line (start 0.196 7) (end 0.196 11.028) (layer Edge.Cuts) (width 0.12))
-    (fp_line (start 9 -8.5) (end -9 -8.5) (layer F.Fab) (width 0.15))
-    (fp_line (start -9 -8.5) (end -9 8.5) (layer F.Fab) (width 0.15))
-    (fp_line (start -9 8.5) (end 9 8.5) (layer F.Fab) (width 0.15))
+    (fp_line (start 16.196 -2.972) (end 7 -2.972) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
-    (fp_line (start 14.196 -2.972) (end 7 -2.972) (layer Edge.Cuts) (width 0.12))
+    (fp_line (start -9 8.5) (end 9 8.5) (layer F.Fab) (width 0.15))
+    (fp_line (start -9 -8.5) (end -9 8.5) (layer F.Fab) (width 0.15))
+    (fp_line (start 9 -8.5) (end -9 -8.5) (layer F.Fab) (width 0.15))
+    (fp_line (start 2.196 7) (end 2.196 11.028) (layer Edge.Cuts) (width 0.12))
+    (fp_line (start -7 7) (end 2.196 7) (layer Edge.Cuts) (width 0.12))
+    (fp_line (start 7 -2.972) (end 7 -7) (layer Edge.Cuts) (width 0.12))
+    (fp_line (start 7 -7) (end -7 -7) (layer Edge.Cuts) (width 0.12))
+    (fp_line (start 16.196 11.028) (end 2.196 11.028) (layer Edge.Cuts) (width 0.12))
+    (fp_line (start -7 -7) (end -7 7) (layer Edge.Cuts) (width 0.12))
+    (fp_line (start 16.196 -2.972) (end 16.196 11.028) (layer Edge.Cuts) (width 0.12))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3A6D)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3A6D)
     (at 144.245 100.832 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808871)
     (fp_text reference SW19 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -398,8 +413,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A39F9)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A39F9)
     (at 144.245 82.832 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808863)
     (fp_text reference SW18 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -417,8 +433,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3985)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3985)
     (at 144.245 64.832 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808855)
     (fp_text reference SW17 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -436,8 +453,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3911)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3911)
     (at 144.245 46.832 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808847)
     (fp_text reference SW16 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -455,8 +473,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A389D)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A389D)
     (at 125.245 121.213 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6080887D)
     (fp_text reference SW15 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -474,8 +493,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3829)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3829)
     (at 125.245 103.213 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6080886F)
     (fp_text reference SW14 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -493,8 +513,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A37B5)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A37B5)
     (at 125.245 85.213 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808861)
     (fp_text reference SW13 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -512,8 +533,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3741)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3741)
     (at 125.245 67.213 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808853)
     (fp_text reference SW12 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -531,8 +553,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A36CD)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A36CD)
     (at 125.245 49.213 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808845)
     (fp_text reference SW11 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -550,8 +573,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3659)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3659)
     (at 106.245 125.975 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6080887B)
     (fp_text reference SW10 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -569,8 +593,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A35E5)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A35E5)
     (at 106.245 107.975 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6080886D)
     (fp_text reference SW9 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -588,8 +613,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3571)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3571)
     (at 106.245 89.975 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6080885F)
     (fp_text reference SW8 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -607,8 +633,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A34FD)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A34FD)
     (at 106.245 71.975 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808851)
     (fp_text reference SW7 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -626,8 +653,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3489)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3489)
     (at 106.245 53.975 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808843)
     (fp_text reference SW6 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -645,8 +673,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A3415)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A3415)
     (at 87.245 125.975 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808879)
     (fp_text reference SW5 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -664,8 +693,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A33A1)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A33A1)
     (at 87.245 107.975 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6080886B)
     (fp_text reference SW4 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -683,8 +713,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A332D)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A332D)
     (at 87.245 89.975 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6080885D)
     (fp_text reference SW3 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -702,8 +733,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 610A32B9)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 610A32B9)
     (at 87.245 71.975 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6080884F)
     (fp_text reference SW2 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -721,8 +753,9 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:SW_Hole (layer F.Cu) (tedit 6144D88D) (tstamp 61099D45)
+  (module plates:SW_Hole (layer F.Cu) (tedit 6182F205) (tstamp 61099D45)
     (at 87.245 53.975 180)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /60808841)
     (fp_text reference SW1 (at 7 8.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -740,121 +773,105 @@
     (fp_line (start 9 8.5) (end 9 -8.5) (layer F.Fab) (width 0.15))
   )
 
-  (module plates:M2_Hole_TH (layer F.Cu) (tedit 5F7666C1) (tstamp 6139A59F)
+  (module plates:M2_Hole_TH (layer F.Cu) (tedit 61AFB65F) (tstamp 6139A59F)
     (at 204.723 134.762)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /613B097E)
-    (fp_text reference H8 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H8 (at 0 -3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
     (pad "" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 2.3) (layers *.Cu *.Mask))
   )
 
-  (module plates:M2_Hole_TH (layer F.Cu) (tedit 5F7666C1) (tstamp 6139A597)
+  (module plates:M2_Hole_TH (layer F.Cu) (tedit 61AFB65F) (tstamp 6139A597)
     (at 165.87 117.73)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6139AE82)
-    (fp_text reference H7 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H7 (at 0 -3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
     (pad "" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 2.3) (layers *.Cu *.Mask))
   )
 
-  (module plates:M2_Hole_TH (layer F.Cu) (tedit 5F7666C1) (tstamp 6139A58F)
+  (module plates:M2_Hole_TH (layer F.Cu) (tedit 61AFB65F) (tstamp 6139A58F)
     (at 172.463 94.248)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /613968FF)
-    (fp_text reference H6 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H6 (at 0 -3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
     (pad "" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 2.3) (layers *.Cu *.Mask))
   )
 
-  (module plates:M2_Hole_TH (layer F.Cu) (tedit 5F7666C1) (tstamp 6139A587)
+  (module plates:M2_Hole_TH (layer F.Cu) (tedit 61AFB65F) (tstamp 6139A587)
     (at 134.379 94.204)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /613A7E8C)
-    (fp_text reference H5 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H5 (at 0 -3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
     (pad "" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 2.3) (layers *.Cu *.Mask))
   )
 
-  (module plates:M2_Hole_TH (layer F.Cu) (tedit 5F7666C1) (tstamp 6139A57F)
+  (module plates:M2_Hole_TH (layer F.Cu) (tedit 61AFB65F) (tstamp 6139A57F)
     (at 96.694 116.997)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /613AC3D2)
-    (fp_text reference H4 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H4 (at 0 -3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
     (pad "" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 2.3) (layers *.Cu *.Mask))
   )
 
-  (module plates:M2_Hole_TH (layer F.Cu) (tedit 5F7666C1) (tstamp 6139A577)
+  (module plates:M2_Hole_TH (layer F.Cu) (tedit 61AFB65F) (tstamp 6139A577)
     (at 172.365 58.174)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /613A391F)
-    (fp_text reference H3 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H3 (at 0 -3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
     (pad "" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 2.3) (layers *.Cu *.Mask))
   )
 
-  (module plates:M2_Hole_TH (layer F.Cu) (tedit 5F7666C1) (tstamp 6139A56F)
+  (module plates:M2_Hole_TH (layer F.Cu) (tedit 61AFB65F) (tstamp 6139A56F)
     (at 134.342 58.24)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /61396604)
-    (fp_text reference H2 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H2 (at 0 -3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 2.3) (layers *.Cu *.Mask))
   )
 
-  (module plates:M2_Hole_TH (layer F.Cu) (tedit 5F7666C1) (tstamp 6139A567)
+  (module plates:M2_Hole_TH (layer F.Cu) (tedit 61AFB65F) (tstamp 6139A567)
     (at 96.755 62.896)
+    (descr "Licensed under the MIT License - Copyright (c) 2019 foostan - Based on https://github.com/foostan/crkbd/tree/main/plates/pcb")
     (path /6139F453)
-    (fp_text reference H1 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H1 (at 0 -3.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 2.3) (layers *.Cu *.Mask))
@@ -887,7 +904,6 @@
     (effects (font (size 1.4 1.4) (thickness 0.2)) (justify left))
   )
   (gr_line (start 189.284 43.76) (end 172.94 43.759) (layer Edge.Cuts) (width 0.15) (tstamp 6109D3E6))
-  (gr_line (start 213.71 119.261) (end 228.796 127.992) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 227.907 129.262) (end 228.796 127.992) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 212.755 158.597) (end 229.177 130.151) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 211.602 157.728) (end 212.755 158.597) (angle 91.68588017) (layer Edge.Cuts) (width 0.15))
