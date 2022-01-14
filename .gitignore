@@ -39,3 +39,5 @@ fp-info-cache
 
 # gerber zip files
 **/gerber/*.zip
+
+node_modules
