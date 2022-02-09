@@ -21,6 +21,10 @@ quickly realized that the most sophisticated offer seems to be the Corne
 Chocolate. This keyboard is heavily based upon the footprints of the Corne
 Chocolate, but layed out in a layout very similar to the original ErgoDash.
 
+### ErgoDash comparison
+
+![An ErgoDash next to a Taira](docs/ergodash-comparison.jpg)
+
 ## Build guide
 
 Follow the [build guide](BUILDGUIDE.md) if you are interested in building your
