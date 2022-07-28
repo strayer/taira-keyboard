@@ -16,8 +16,8 @@ and spacers that will fit the tight build, for example.
 | 301230 LiPo battery        | 2      |                                                                               |                                      |
 | Mill-Max Series 315 header | 4      |                                                                               | [headers on keycapsss.com]           |
 | Mill-Max Series 315 pin    | 48     |                                                                               | [pins on keycapsss.com]              |
-| Tactile switch             | 2      |                                                                               | [SS12D00]                            |
-| Power switch               | 2      |                                                                               | [TS-1136-4.3]                        |
+| Tactile switch             | 2      |                                                                               | [TS-1136-4.3]                        |
+| Power switch               | 2      |                                                                               | [SS12D00]                            |
 | Diode                      | 66     |                                                                               | SOD-123FL                            |
 | Kailh Choc Hotswap Socket  | 66     |                                                                               | [Choc Type Hot Swap Socket]          |
 | Key switch                 | 66     |                                                                               | PG1350, NOT Choc V2!                 |
